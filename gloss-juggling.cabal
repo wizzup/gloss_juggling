@@ -1,0 +1,14 @@
+cabal-version:       >=1.10
+name:                juggling-sim
+version:             0.1.0.0
+author:              wisut hantanong
+maintainer:          wizzup@gmail.com
+build-type:          Simple
+
+executable sim
+  main-is: Main.hs
+  ghc-options: -rtsopts
+  build-depends:
+      base
+    , gloss
+  default-language: Haskell2010
